@@ -12,6 +12,7 @@ It takes the battery's variable voltage and converts it into a stable 5V output.
 
 so basically this keeps the 5v output consistent even tho the battery voltage changes. 
 ex:-
+
     Battery:8.4 v -> VIN:8.4 v -> LMZ21701: (VOUT: 5.0 v, FB: 0.5 v)
     when the battery level goes down 
     Battery:6.0 v -> VIN:6.0 v -> LMZ21701: (VOUT: 5.0 v, FB: 0.5 v)
